@@ -1,0 +1,11 @@
+# core has zero required third-party dependencies — everything here runs on
+# the standard library alone (json, urllib, ast, pathlib, dataclasses).
+
+# uncomment to wire up a real voice front end (see README "voice mode"):
+# SpeechRecognition
+# pyttsx3
+# PyAudio
+
+# uncomment if you'd rather use the official SDK than the raw urllib call
+# in plugins/llm_plugin.py:
+# anthropic
